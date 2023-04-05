@@ -13,9 +13,9 @@ for (let i = 0; i < 64; i++) {
   container.append(tile);
 
   if ((i + Math.floor(i / 8)) % 2 === 0) {
-    tile.style.background = "black";
-  } else {
     tile.style.background = "red";
+  } else {
+    tile.style.background = "black";
   }
 }
 
